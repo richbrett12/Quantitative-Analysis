@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+
+
+<html>
+
+	<head>
+		<title> Sales Force Management: Quantitative Analysis</title>
+		<link rel="stylesheet" type="text/css" href="index.css">
+		<script>
+
+		function show(shown, hidden, hidden2, hidden3, hidden4, hidden5, hidden6, hidden7, hidden8, hidden9, hidden10, hidden11, hidden12, hidden13, hidden14, hidden15, hidden16) {
+  			document.getElementById(shown).style.display='block';
+  			document.getElementById(hidden).style.display='none';
+  			document.getElementById(hidden2).style.display='none';
+  			document.getElementById(hidden3).style.display='none';
+  			document.getElementById(hidden4).style.display='none';
+  			document.getElementById(hidden5).style.display='none';
+  			document.getElementById(hidden6).style.display='none';
+  			document.getElementById(hidden7).style.display='none';
+  			document.getElementById(hidden8).style.display='none';
+  			document.getElementById(hidden9).style.display='none';
+  			document.getElementById(hidden10).style.display='none';
+  			document.getElementById(hidden11).style.display='none';
+  			document.getElementById(hidden12).style.display='none';
+  			document.getElementById(hidden13).style.display='none';
+  			document.getElementById(hidden14).style.display='none';
+  			document.getElementById(hidden15).style.display='none';
+  			document.getElementById(hidden16).style.display='none';
+  			return false;
+		}
+		</script>
+	</head>
+
+	<body>
+		<div class="title">
+			<h1> Quantitative Analysis Exercises </h1>
+			<h3> Sales Force Management </h3>
+		</div>
+
+		<div id="Page1">
+			<div id="chapter-title">
+				<p id='chapterTitle'> Chapter 1: One Rotating Problem </p>
+			</div>
+
+			<div class="button">
+				<button type="button" class="generateProblem" id="add-buttonC1">Generate Problem</button>
+				<div class="dropdown">
+  					<button id="dropdownbtn" class="dropbtn">Select Chapter</button>
+  					<div id="myDropdown" class="dropdown-content">
+    					<a href="#" onclick="return show('Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17');">Chapter 1</a>
+    					<a href="#" onclick="return show('Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1');">Chapter 2</a>
+    					<a href="#" onclick="return show('Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2');">Chapter 3</a>
+    					<a href="#" onclick="return show('Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3');">Chapter 4</a>
+    					<a href="#" onclick="return show('Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4');">Chapter 5</a>
+    					<a href="#" onclick="return show('Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5');">Chapter 6</a>
+    					<a href="#" onclick="return show('Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6');">Chapter 7</a>
+    					<a href="#" onclick="return show('Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7');">Chapter 8</a>
+    					<a href="#" onclick="return show('Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8');">Chapter 9</a>
+    					<a href="#" onclick="return show('Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9');">Chapter 10</a>
+    					<a href="#" onclick="return show('Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10');">Chapter 11</a>
+    					<a href="#" onclick="return show('Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11');">Chapter 12</a>
+    					<a href="#" onclick="return show('Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12');">Chapter 13</a>
+    					<a href="#" onclick="return show('Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13');">Chapter 14</a>
+    					<a href="#" onclick="return show('Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14');">Chapter 15</a>
+    					<a href="#" onclick="return show('Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15');">Chapter 16</a>
+    					<a href="#" onclick="return show('Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16');">Chapter 17</a>
+  					</div>
+				</div>
+			</div>
+
+			<div id="question--containerC1">
+				<!-- QUESTIONS -->
+			</div>
+		</div>
+
+		<div id="Page2" style="display: none">
+			<div id="chapter-title">
+				<p id='chapterTitle'> Chapter 2: One Rotating Problem </p>
+			</div>
+
+			<div class="button">
+				<button type="button" class="generateProblem" id="add-buttonC2">Generate Problem</button>
+				<div class="dropdown">
+  					<button id="dropdownbtn" class="dropbtn">Select Chapter</button>
+  					<div id="myDropdown" class="dropdown-content">
+    					<a href="#" onclick="return show('Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17');">Chapter 1</a>
+    					<a href="#" onclick="return show('Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1');">Chapter 2</a>
+    					<a href="#" onclick="return show('Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2');">Chapter 3</a>
+    					<a href="#" onclick="return show('Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3');">Chapter 4</a>
+    					<a href="#" onclick="return show('Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4');">Chapter 5</a>
+    					<a href="#" onclick="return show('Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5');">Chapter 6</a>
+    					<a href="#" onclick="return show('Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6');">Chapter 7</a>
+    					<a href="#" onclick="return show('Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7');">Chapter 8</a>
+    					<a href="#" onclick="return show('Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8');">Chapter 9</a>
+    					<a href="#" onclick="return show('Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9');">Chapter 10</a>
+    					<a href="#" onclick="return show('Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10');">Chapter 11</a>
+    					<a href="#" onclick="return show('Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11');">Chapter 12</a>
+    					<a href="#" onclick="return show('Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12');">Chapter 13</a>
+    					<a href="#" onclick="return show('Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13');">Chapter 14</a>
+    					<a href="#" onclick="return show('Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14');">Chapter 15</a>
+    					<a href="#" onclick="return show('Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15');">Chapter 16</a>
+    					<a href="#" onclick="return show('Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16');">Chapter 17</a>
+  					</div>
+				</div>
+			</div>
+
+			<div id="question--containerC2">
+				<!-- QUESTIONS -->
+			</div>
+		</div>
+
+		<div id="Page3" style="display: none">
+			<div id="chapter-title">
+				<p id='chapterTitle'> Chapter 3: One Rotating Problem </p>
+			</div>
+
+			<div class="button">
+				<button type="button" class="generateProblem" id="add-buttonC3">Generate Problem</button>
+				<div class="dropdown">
+  					<button id="dropdownbtn" class="dropbtn">Select Chapter</button>
+  					<div id="myDropdown" class="dropdown-content">
+    					<a href="#" onclick="return show('Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17');">Chapter 1</a>
+    					<a href="#" onclick="return show('Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1');">Chapter 2</a>
+    					<a href="#" onclick="return show('Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2');">Chapter 3</a>
+    					<a href="#" onclick="return show('Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3');">Chapter 4</a>
+    					<a href="#" onclick="return show('Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4');">Chapter 5</a>
+    					<a href="#" onclick="return show('Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5');">Chapter 6</a>
+    					<a href="#" onclick="return show('Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6');">Chapter 7</a>
+    					<a href="#" onclick="return show('Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7');">Chapter 8</a>
+    					<a href="#" onclick="return show('Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8');">Chapter 9</a>
+    					<a href="#" onclick="return show('Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9');">Chapter 10</a>
+    					<a href="#" onclick="return show('Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10');">Chapter 11</a>
+    					<a href="#" onclick="return show('Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11');">Chapter 12</a>
+    					<a href="#" onclick="return show('Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12');">Chapter 13</a>
+    					<a href="#" onclick="return show('Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13');">Chapter 14</a>
+    					<a href="#" onclick="return show('Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14');">Chapter 15</a>
+    					<a href="#" onclick="return show('Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15');">Chapter 16</a>
+    					<a href="#" onclick="return show('Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16');">Chapter 17</a>
+  					</div>
+				</div>
+			</div>
+
+			<div id="question--containerC3">
+				<!-- QUESTIONS -->
+			</div>
+		</div>
+
+		<div id="Page4" style="display: none">
+			<div id="chapter-title">
+				<p id='chapterTitle'> Chapter 4: Two Rotating Problems </p>
+			</div>
+
+			<div class="button">
+				<button type="button" class="generateProblem" id="add-buttonC4">Generate Problem</button>
+				<div class="dropdown">
+  					<button id="dropdownbtn" class="dropbtn">Select Chapter</button>
+  					<div id="myDropdown" class="dropdown-content">
+    					<a href="#" onclick="return show('Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17');">Chapter 1</a>
+    					<a href="#" onclick="return show('Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1');">Chapter 2</a>
+    					<a href="#" onclick="return show('Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2');">Chapter 3</a>
+    					<a href="#" onclick="return show('Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3');">Chapter 4</a>
+    					<a href="#" onclick="return show('Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4');">Chapter 5</a>
+    					<a href="#" onclick="return show('Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5');">Chapter 6</a>
+    					<a href="#" onclick="return show('Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6');">Chapter 7</a>
+    					<a href="#" onclick="return show('Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7');">Chapter 8</a>
+    					<a href="#" onclick="return show('Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8');">Chapter 9</a>
+    					<a href="#" onclick="return show('Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9');">Chapter 10</a>
+    					<a href="#" onclick="return show('Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10');">Chapter 11</a>
+    					<a href="#" onclick="return show('Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11');">Chapter 12</a>
+    					<a href="#" onclick="return show('Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12');">Chapter 13</a>
+    					<a href="#" onclick="return show('Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13');">Chapter 14</a>
+    					<a href="#" onclick="return show('Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14');">Chapter 15</a>
+    					<a href="#" onclick="return show('Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15');">Chapter 16</a>
+    					<a href="#" onclick="return show('Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16');">Chapter 17</a>
+  					</div>
+				</div>
+			</div>
+
+			<div id="question--containerC4">
+				<!-- QUESTIONS -->
+			</div>
+		</div>
+
+		<div id="Page5" style="display: none">
+			<div id="chapter-title">
+				<p id='chapterTitle'> Chapter 5: One Rotating Problem </p>
+			</div>
+
+			<div class="button">
+				<button type="button" class="generateProblem" id="add-buttonC5">Generate Problem</button>
+				<div class="dropdown">
+  					<button id="dropdownbtn" class="dropbtn">Select Chapter</button>
+  					<div id="myDropdown" class="dropdown-content">
+    					<a href="#" onclick="return show('Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17');">Chapter 1</a>
+    					<a href="#" onclick="return show('Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1');">Chapter 2</a>
+    					<a href="#" onclick="return show('Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2');">Chapter 3</a>
+    					<a href="#" onclick="return show('Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3');">Chapter 4</a>
+    					<a href="#" onclick="return show('Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4');">Chapter 5</a>
+    					<a href="#" onclick="return show('Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5');">Chapter 6</a>
+    					<a href="#" onclick="return show('Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6');">Chapter 7</a>
+    					<a href="#" onclick="return show('Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7');">Chapter 8</a>
+    					<a href="#" onclick="return show('Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8');">Chapter 9</a>
+    					<a href="#" onclick="return show('Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9');">Chapter 10</a>
+    					<a href="#" onclick="return show('Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10');">Chapter 11</a>
+    					<a href="#" onclick="return show('Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11');">Chapter 12</a>
+    					<a href="#" onclick="return show('Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12');">Chapter 13</a>
+    					<a href="#" onclick="return show('Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13');">Chapter 14</a>
+    					<a href="#" onclick="return show('Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14');">Chapter 15</a>
+    					<a href="#" onclick="return show('Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15');">Chapter 16</a>
+    					<a href="#" onclick="return show('Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16');">Chapter 17</a>
+  					</div>
+				</div>
+			</div>
+
+			<div id="question--containerC5">
+				<!-- QUESTIONS -->
+			</div>
+		</div>
+
+		<div id="Page6" style="display: none">
+			<div id="chapter-title">
+				<p id='chapterTitle'> Chapter 6: Four Rotating Problems </p>
+			</div>
+
+			<div class="button">
+				<button type="button" class="generateProblem" id="add-buttonC6">Generate Problem</button>
+				<div class="dropdown">
+  					<button id="dropdownbtn" class="dropbtn">Select Chapter</button>
+  					<div id="myDropdown" class="dropdown-content">
+    					<a href="#" onclick="return show('Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17');">Chapter 1</a>
+    					<a href="#" onclick="return show('Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1');">Chapter 2</a>
+    					<a href="#" onclick="return show('Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2');">Chapter 3</a>
+    					<a href="#" onclick="return show('Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3');">Chapter 4</a>
+    					<a href="#" onclick="return show('Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4');">Chapter 5</a>
+    					<a href="#" onclick="return show('Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5');">Chapter 6</a>
+    					<a href="#" onclick="return show('Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6');">Chapter 7</a>
+    					<a href="#" onclick="return show('Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7');">Chapter 8</a>
+    					<a href="#" onclick="return show('Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8');">Chapter 9</a>
+    					<a href="#" onclick="return show('Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9');">Chapter 10</a>
+    					<a href="#" onclick="return show('Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10');">Chapter 11</a>
+    					<a href="#" onclick="return show('Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11');">Chapter 12</a>
+    					<a href="#" onclick="return show('Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12');">Chapter 13</a>
+    					<a href="#" onclick="return show('Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13');">Chapter 14</a>
+    					<a href="#" onclick="return show('Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14');">Chapter 15</a>
+    					<a href="#" onclick="return show('Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15');">Chapter 16</a>
+    					<a href="#" onclick="return show('Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16');">Chapter 17</a>
+  					</div>
+				</div>
+			</div>
+
+			<div id="question--containerC6">
+				<!-- QUESTIONS -->
+			</div>
+		</div>
+
+		<div id="Page7" style="display: none">
+			<div id="chapter-title">
+				<p id='chapterTitle'> Chapter 7: One Problem </p>
+			</div>
+
+			<div class="button">
+				<button type="button" class="generateProblem" id="add-buttonC7">Generate Problem</button>
+				<div class="dropdown">
+  					<button id="dropdownbtn" class="dropbtn">Select Chapter</button>
+  					<div id="myDropdown" class="dropdown-content">
+    					<a href="#" onclick="return show('Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17');">Chapter 1</a>
+    					<a href="#" onclick="return show('Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1');">Chapter 2</a>
+    					<a href="#" onclick="return show('Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2');">Chapter 3</a>
+    					<a href="#" onclick="return show('Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3');">Chapter 4</a>
+    					<a href="#" onclick="return show('Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4');">Chapter 5</a>
+    					<a href="#" onclick="return show('Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5');">Chapter 6</a>
+    					<a href="#" onclick="return show('Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6');">Chapter 7</a>
+    					<a href="#" onclick="return show('Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7');">Chapter 8</a>
+    					<a href="#" onclick="return show('Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8');">Chapter 9</a>
+    					<a href="#" onclick="return show('Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9');">Chapter 10</a>
+    					<a href="#" onclick="return show('Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10');">Chapter 11</a>
+    					<a href="#" onclick="return show('Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11');">Chapter 12</a>
+    					<a href="#" onclick="return show('Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12');">Chapter 13</a>
+    					<a href="#" onclick="return show('Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13');">Chapter 14</a>
+    					<a href="#" onclick="return show('Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14');">Chapter 15</a>
+    					<a href="#" onclick="return show('Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15');">Chapter 16</a>
+    					<a href="#" onclick="return show('Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16');">Chapter 17</a>
+  					</div>
+				</div>
+			</div>
+
+			<div id="question--containerC7">
+				<!-- QUESTIONS -->
+			</div>
+		</div>
+
+		<div id="Page8" style="display: none">
+			<div id="chapter-title">
+				<p id='chapterTitle'> Chapter 8: One Rotating Problem </p>
+			</div>
+
+			<div class="button">
+				<button type="button" class="generateProblem" id="add-buttonC8">Generate Problem</button>
+				<div class="dropdown">
+  					<button id="dropdownbtn" class="dropbtn">Select Chapter</button>
+  					<div id="myDropdown" class="dropdown-content">
+    					<a href="#" onclick="return show('Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17');">Chapter 1</a>
+    					<a href="#" onclick="return show('Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1');">Chapter 2</a>
+    					<a href="#" onclick="return show('Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2');">Chapter 3</a>
+    					<a href="#" onclick="return show('Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3');">Chapter 4</a>
+    					<a href="#" onclick="return show('Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4');">Chapter 5</a>
+    					<a href="#" onclick="return show('Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5');">Chapter 6</a>
+    					<a href="#" onclick="return show('Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6');">Chapter 7</a>
+    					<a href="#" onclick="return show('Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7');">Chapter 8</a>
+    					<a href="#" onclick="return show('Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8');">Chapter 9</a>
+    					<a href="#" onclick="return show('Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9');">Chapter 10</a>
+    					<a href="#" onclick="return show('Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10');">Chapter 11</a>
+    					<a href="#" onclick="return show('Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11');">Chapter 12</a>
+    					<a href="#" onclick="return show('Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12');">Chapter 13</a>
+    					<a href="#" onclick="return show('Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13');">Chapter 14</a>
+    					<a href="#" onclick="return show('Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14');">Chapter 15</a>
+    					<a href="#" onclick="return show('Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15');">Chapter 16</a>
+    					<a href="#" onclick="return show('Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16');">Chapter 17</a>
+  					</div>
+				</div>
+			</div>
+
+			<div id="question--containerC8">
+				<!-- QUESTIONS -->
+			</div>
+		</div>
+
+		<div id="Page9" style="display: none">
+			<div id="chapter-title">
+				<p id='chapterTitle'> Chapter 9: Five Rotating Problems </p>
+			</div>
+
+			<div class="button">
+				<button type="button" class="generateProblem" id="add-buttonC9">Generate Problem</button>
+				<div class="dropdown">
+  					<button id="dropdownbtn" class="dropbtn">Select Chapter</button>
+  					<div id="myDropdown" class="dropdown-content">
+    					<a href="#" onclick="return show('Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17');">Chapter 1</a>
+    					<a href="#" onclick="return show('Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1');">Chapter 2</a>
+    					<a href="#" onclick="return show('Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2');">Chapter 3</a>
+    					<a href="#" onclick="return show('Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3');">Chapter 4</a>
+    					<a href="#" onclick="return show('Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4');">Chapter 5</a>
+    					<a href="#" onclick="return show('Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5');">Chapter 6</a>
+    					<a href="#" onclick="return show('Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6');">Chapter 7</a>
+    					<a href="#" onclick="return show('Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7');">Chapter 8</a>
+    					<a href="#" onclick="return show('Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8');">Chapter 9</a>
+    					<a href="#" onclick="return show('Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9');">Chapter 10</a>
+    					<a href="#" onclick="return show('Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10');">Chapter 11</a>
+    					<a href="#" onclick="return show('Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11');">Chapter 12</a>
+    					<a href="#" onclick="return show('Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12');">Chapter 13</a>
+    					<a href="#" onclick="return show('Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13');">Chapter 14</a>
+    					<a href="#" onclick="return show('Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14');">Chapter 15</a>
+    					<a href="#" onclick="return show('Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15');">Chapter 16</a>
+    					<a href="#" onclick="return show('Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16');">Chapter 17</a>
+  					</div>
+				</div>
+			</div>
+
+			<div id="question--containerC9">
+				<!-- QUESTIONS -->
+			</div>
+		</div>
+
+		<div id="Page10" style="display: none">
+
+			<div id="chapter-title">
+				<p id='chapterTitle'> Chapter 10: Three Rotating Problems </p>
+			</div>
+
+			<div class="button">
+				<button type="button" class="generateProblem" id="add-buttonC10">Generate Problem</button>
+				<div class="dropdown">
+  					<button id="dropdownbtn" class="dropbtn">Select Chapter</button>
+  					<div id="myDropdown" class="dropdown-content">
+    					<a href="#" onclick="return show('Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17');">Chapter 1</a>
+    					<a href="#" onclick="return show('Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1');">Chapter 2</a>
+    					<a href="#" onclick="return show('Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2');">Chapter 3</a>
+    					<a href="#" onclick="return show('Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3');">Chapter 4</a>
+    					<a href="#" onclick="return show('Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4');">Chapter 5</a>
+    					<a href="#" onclick="return show('Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5');">Chapter 6</a>
+    					<a href="#" onclick="return show('Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6');">Chapter 7</a>
+    					<a href="#" onclick="return show('Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7');">Chapter 8</a>
+    					<a href="#" onclick="return show('Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8');">Chapter 9</a>
+    					<a href="#" onclick="return show('Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9');">Chapter 10</a>
+    					<a href="#" onclick="return show('Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10');">Chapter 11</a>
+    					<a href="#" onclick="return show('Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11');">Chapter 12</a>
+    					<a href="#" onclick="return show('Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12');">Chapter 13</a>
+    					<a href="#" onclick="return show('Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13');">Chapter 14</a>
+    					<a href="#" onclick="return show('Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14');">Chapter 15</a>
+    					<a href="#" onclick="return show('Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15');">Chapter 16</a>
+    					<a href="#" onclick="return show('Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16');">Chapter 17</a>
+  					</div>
+				</div>
+			</div>
+
+			<div id="question--containerC10">
+				<!-- QUESTIONS-->
+			</div>
+		</div>
+
+		<div id="Page11" style="display: none">
+			<div id="chapter-title">
+				<p id='chapterTitle'> Chapter 11: Practice problems coming soon </p>
+			</div>
+
+			<div class="button">
+				<button type="button" class="generateProblem" id="add-buttonC11">Generate Problem</button>
+				<div class="dropdown">
+  					<button id="dropdownbtn" class="dropbtn">Select Chapter</button>
+  					<div id="myDropdown" class="dropdown-content">
+    					<a href="#" onclick="return show('Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17');">Chapter 1</a>
+    					<a href="#" onclick="return show('Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1');">Chapter 2</a>
+    					<a href="#" onclick="return show('Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2');">Chapter 3</a>
+    					<a href="#" onclick="return show('Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3');">Chapter 4</a>
+    					<a href="#" onclick="return show('Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4');">Chapter 5</a>
+    					<a href="#" onclick="return show('Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5');">Chapter 6</a>
+    					<a href="#" onclick="return show('Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6');">Chapter 7</a>
+    					<a href="#" onclick="return show('Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7');">Chapter 8</a>
+    					<a href="#" onclick="return show('Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8');">Chapter 9</a>
+    					<a href="#" onclick="return show('Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9');">Chapter 10</a>
+    					<a href="#" onclick="return show('Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10');">Chapter 11</a>
+    					<a href="#" onclick="return show('Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11');">Chapter 12</a>
+    					<a href="#" onclick="return show('Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12');">Chapter 13</a>
+    					<a href="#" onclick="return show('Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13');">Chapter 14</a>
+    					<a href="#" onclick="return show('Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14');">Chapter 15</a>
+    					<a href="#" onclick="return show('Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15');">Chapter 16</a>
+    					<a href="#" onclick="return show('Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16');">Chapter 17</a>
+  					</div>
+				</div>
+			</div>
+
+			<div id="question--containerC11">
+				<!-- QUESTIONS -->
+			</div>
+		</div>
+
+		<div id="Page12" style="display: none">
+			<div id="chapter-title">
+				<p id='chapterTitle'> Chapter 12: Four Rotating Problems </p>
+			</div>
+
+			<div class="button">
+				<button type="button" class="generateProblem" id="add-buttonC12">Generate Problem</button>
+				<div class="dropdown">
+  					<button id="dropdownbtn" class="dropbtn">Select Chapter</button>
+  					<div id="myDropdown" class="dropdown-content">
+    					<a href="#" onclick="return show('Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17');">Chapter 1</a>
+    					<a href="#" onclick="return show('Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1');">Chapter 2</a>
+    					<a href="#" onclick="return show('Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2');">Chapter 3</a>
+    					<a href="#" onclick="return show('Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3');">Chapter 4</a>
+    					<a href="#" onclick="return show('Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4');">Chapter 5</a>
+    					<a href="#" onclick="return show('Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5');">Chapter 6</a>
+    					<a href="#" onclick="return show('Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6');">Chapter 7</a>
+    					<a href="#" onclick="return show('Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7');">Chapter 8</a>
+    					<a href="#" onclick="return show('Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8');">Chapter 9</a>
+    					<a href="#" onclick="return show('Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9');">Chapter 10</a>
+    					<a href="#" onclick="return show('Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10');">Chapter 11</a>
+    					<a href="#" onclick="return show('Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11');">Chapter 12</a>
+    					<a href="#" onclick="return show('Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12');">Chapter 13</a>
+    					<a href="#" onclick="return show('Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13');">Chapter 14</a>
+    					<a href="#" onclick="return show('Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14');">Chapter 15</a>
+    					<a href="#" onclick="return show('Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15');">Chapter 16</a>
+    					<a href="#" onclick="return show('Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16');">Chapter 17</a>
+  					</div>
+				</div>
+			</div>
+
+			<div id="question--containerC12">
+				<!-- QUESTIONS -->
+			</div>
+		</div>
+
+		<div id="Page13" style="display: none">
+			<div id="chapter-title">
+				<p id='chapterTitle'> Chapter 13: Practice problems coming soon </p>
+			</div>
+
+			<div class="button">
+				<button type="button" class="generateProblem" id="add-buttonC13">Generate Problem</button>
+				<div class="dropdown">
+  					<button id="dropdownbtn" class="dropbtn">Select Chapter</button>
+  					<div id="myDropdown" class="dropdown-content">
+    					<a href="#" onclick="return show('Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17');">Chapter 1</a>
+    					<a href="#" onclick="return show('Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1');">Chapter 2</a>
+    					<a href="#" onclick="return show('Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2');">Chapter 3</a>
+    					<a href="#" onclick="return show('Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3');">Chapter 4</a>
+    					<a href="#" onclick="return show('Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4');">Chapter 5</a>
+    					<a href="#" onclick="return show('Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5');">Chapter 6</a>
+    					<a href="#" onclick="return show('Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6');">Chapter 7</a>
+    					<a href="#" onclick="return show('Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7');">Chapter 8</a>
+    					<a href="#" onclick="return show('Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8');">Chapter 9</a>
+    					<a href="#" onclick="return show('Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9');">Chapter 10</a>
+    					<a href="#" onclick="return show('Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10');">Chapter 11</a>
+    					<a href="#" onclick="return show('Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11');">Chapter 12</a>
+    					<a href="#" onclick="return show('Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12');">Chapter 13</a>
+    					<a href="#" onclick="return show('Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13');">Chapter 14</a>
+    					<a href="#" onclick="return show('Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14');">Chapter 15</a>
+    					<a href="#" onclick="return show('Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15');">Chapter 16</a>
+    					<a href="#" onclick="return show('Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16');">Chapter 17</a>
+  					</div>
+				</div>
+			</div>
+
+			<div id="question--containerC13">
+				<!-- QUESTIONS -->
+			</div>
+		</div>
+
+		<div id="Page14" style="display: none">
+			<div id="chapter-title">
+				<p id='chapterTitle'> Chapter 14: Three Rotating Problems </p>
+			</div>
+
+			<div class="button">
+				<button type="button" class="generateProblem" id="add-buttonC14">Generate Problem</button>
+				<div class="dropdown">
+  					<button id="dropdownbtn" class="dropbtn">Select Chapter</button>
+  					<div id="myDropdown" class="dropdown-content">
+    					<a href="#" onclick="return show('Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17');">Chapter 1</a>
+    					<a href="#" onclick="return show('Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1');">Chapter 2</a>
+    					<a href="#" onclick="return show('Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2');">Chapter 3</a>
+    					<a href="#" onclick="return show('Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3');">Chapter 4</a>
+    					<a href="#" onclick="return show('Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4');">Chapter 5</a>
+    					<a href="#" onclick="return show('Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5');">Chapter 6</a>
+    					<a href="#" onclick="return show('Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6');">Chapter 7</a>
+    					<a href="#" onclick="return show('Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7');">Chapter 8</a>
+    					<a href="#" onclick="return show('Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8');">Chapter 9</a>
+    					<a href="#" onclick="return show('Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9');">Chapter 10</a>
+    					<a href="#" onclick="return show('Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10');">Chapter 11</a>
+    					<a href="#" onclick="return show('Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11');">Chapter 12</a>
+    					<a href="#" onclick="return show('Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12');">Chapter 13</a>
+    					<a href="#" onclick="return show('Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13');">Chapter 14</a>
+    					<a href="#" onclick="return show('Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14');">Chapter 15</a>
+    					<a href="#" onclick="return show('Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15');">Chapter 16</a>
+    					<a href="#" onclick="return show('Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16');">Chapter 17</a>
+  					</div>
+				</div>
+			</div>
+
+			<div id="question--containerC14">
+				<!-- QUESTIONS -->
+			</div>
+		</div>
+
+		<div id="Page15" style="display: none">
+			<div id="chapter-title">
+				<p id='chapterTitle'> Chapter 15: Two Rotating Problems </p>
+			</div>
+
+			<div class="button">
+				<button type="button" class="generateProblem" id="add-buttonC15">Generate Problem</button>
+				<div class="dropdown">
+  					<button id="dropdownbtn" class="dropbtn">Select Chapter</button>
+  					<div id="myDropdown" class="dropdown-content">
+    					<a href="#" onclick="return show('Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17');">Chapter 1</a>
+    					<a href="#" onclick="return show('Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1');">Chapter 2</a>
+    					<a href="#" onclick="return show('Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2');">Chapter 3</a>
+    					<a href="#" onclick="return show('Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3');">Chapter 4</a>
+    					<a href="#" onclick="return show('Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4');">Chapter 5</a>
+    					<a href="#" onclick="return show('Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5');">Chapter 6</a>
+    					<a href="#" onclick="return show('Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6');">Chapter 7</a>
+    					<a href="#" onclick="return show('Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7');">Chapter 8</a>
+    					<a href="#" onclick="return show('Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8');">Chapter 9</a>
+    					<a href="#" onclick="return show('Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9');">Chapter 10</a>
+    					<a href="#" onclick="return show('Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10');">Chapter 11</a>
+    					<a href="#" onclick="return show('Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11');">Chapter 12</a>
+    					<a href="#" onclick="return show('Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12');">Chapter 13</a>
+    					<a href="#" onclick="return show('Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13');">Chapter 14</a>
+    					<a href="#" onclick="return show('Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14');">Chapter 15</a>
+    					<a href="#" onclick="return show('Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15');">Chapter 16</a>
+    					<a href="#" onclick="return show('Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16');">Chapter 17</a>
+  					</div>
+				</div>
+			</div>
+
+			<div id="question--containerC15">
+				<!-- QUESTIONS -->
+			</div>
+		</div>
+
+		<div id="Page16" style="display: none">
+			<div id="chapter-title">
+				<p id='chapterTitle'> Chapter 16: Four Rotating Problems </p>
+			</div>
+
+			<div class="button">
+				<button type="button" class="generateProblem" id="add-buttonC16">Generate Problem</button>
+				<div class="dropdown">
+  					<button id="dropdownbtn" class="dropbtn">Select Chapter</button>
+  					<div id="myDropdown" class="dropdown-content">
+    					<a href="#" onclick="return show('Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17');">Chapter 1</a>
+    					<a href="#" onclick="return show('Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1');">Chapter 2</a>
+    					<a href="#" onclick="return show('Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2');">Chapter 3</a>
+    					<a href="#" onclick="return show('Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3');">Chapter 4</a>
+    					<a href="#" onclick="return show('Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4');">Chapter 5</a>
+    					<a href="#" onclick="return show('Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5');">Chapter 6</a>
+    					<a href="#" onclick="return show('Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6');">Chapter 7</a>
+    					<a href="#" onclick="return show('Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7');">Chapter 8</a>
+    					<a href="#" onclick="return show('Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8');">Chapter 9</a>
+    					<a href="#" onclick="return show('Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9');">Chapter 10</a>
+    					<a href="#" onclick="return show('Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10');">Chapter 11</a>
+    					<a href="#" onclick="return show('Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11');">Chapter 12</a>
+    					<a href="#" onclick="return show('Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12');">Chapter 13</a>
+    					<a href="#" onclick="return show('Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13');">Chapter 14</a>
+    					<a href="#" onclick="return show('Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14');">Chapter 15</a>
+    					<a href="#" onclick="return show('Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15');">Chapter 16</a>
+    					<a href="#" onclick="return show('Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16');">Chapter 17</a>
+  					</div>
+				</div>
+			</div>
+
+			<div id="question--containerC16">
+				<!-- QUESTIONS -->
+			</div>
+		</div>
+
+		<div id="Page17" style="display: none">
+			<div id="chapter-title">
+				<p id='chapterTitle'> Chapter 17: Practice problems coming soon</p>
+			</div>
+
+			<div class="button">
+				<button type="button" class="generateProblem" id="add-buttonC17">Generate Problem</button>
+				<div class="dropdown">
+  					<button id="dropdownbtn" class="dropbtn">Select Chapter</button>
+  					<div id="myDropdown" class="dropdown-content">
+    					<a href="#" onclick="return show('Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17');">Chapter 1</a>
+    					<a href="#" onclick="return show('Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1');">Chapter 2</a>
+    					<a href="#" onclick="return show('Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2');">Chapter 3</a>
+    					<a href="#" onclick="return show('Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3');">Chapter 4</a>
+    					<a href="#" onclick="return show('Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4');">Chapter 5</a>
+    					<a href="#" onclick="return show('Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5');">Chapter 6</a>
+    					<a href="#" onclick="return show('Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6');">Chapter 7</a>
+    					<a href="#" onclick="return show('Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7');">Chapter 8</a>
+    					<a href="#" onclick="return show('Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8');">Chapter 9</a>
+    					<a href="#" onclick="return show('Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9');">Chapter 10</a>
+    					<a href="#" onclick="return show('Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10');">Chapter 11</a>
+    					<a href="#" onclick="return show('Page12', 'Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11');">Chapter 12</a>
+    					<a href="#" onclick="return show('Page13', 'Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12');">Chapter 13</a>
+    					<a href="#" onclick="return show('Page14', 'Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13');">Chapter 14</a>
+    					<a href="#" onclick="return show('Page15', 'Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14');">Chapter 15</a>
+    					<a href="#" onclick="return show('Page16', 'Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15');">Chapter 16</a>
+    					<a href="#" onclick="return show('Page17', 'Page1', 'Page2', 'Page3', 'Page4', 'Page5', 'Page6', 'Page7', 'Page8', 'Page9', 'Page10', 'Page11', 'Page12', 'Page13', 'Page14', 'Page15', 'Page16');">Chapter 17</a>
+  					</div>
+				</div>
+			</div>
+
+			<div id="question--containerC17">
+				<!-- QUESTIONS -->
+			</div>
+		</div>
+
+	</body>
+
+	<script type="text/javascript" src="js/AbstractQuestion.js"></script>
+	<script type="text/javascript" src="js/AbstractQuestionTwo.js"></script>
+	<script type="text/javascript" src="js/Question1.js"></script>
+	<script type="text/javascript" src="js/Question2.js"></script>
+	<script type="text/javascript" src="js/Question3.js"></script>
+	<script type="text/javascript" src="js/Question4.js"></script>
+	<script type="text/javascript" src="js/Question5.js"></script>
+	<script type="text/javascript" src="js/Question6.js"></script>
+	<script type="text/javascript" src="js/Question7.js"></script>
+	<script type="text/javascript" src="js/Question8.js"></script>
+	<script type="text/javascript" src="js/Question9.js"></script>
+	<script type="text/javascript" src="js/Question10.js"></script>
+	<script type="text/javascript" src="js/Question11.js"></script>
+	<script type="text/javascript" src="js/Question12.js"></script>
+	<script type="text/javascript" src="js/Question13.js"></script>
+	<script type="text/javascript" src="js/Question14.js"></script>
+	<script type="text/javascript" src="js/Question15.js"></script>
+	<script type="text/javascript" src="js/Question16.js"></script>
+	<script type="text/javascript" src="js/Question17.js"></script>
+	<script type="text/javascript" src="js/Question18.js"></script>
+	<script type="text/javascript" src="js/Question19.js"></script>
+	<script type="text/javascript" src="js/Question20.js"></script>
+	<script type="text/javascript" src="js/Question21.js"></script>
+	<script type="text/javascript" src="js/Question22.js"></script>
+	<script type="text/javascript" src="js/C1Question1.js"></script>
+	<script type="text/javascript" src="js/C2Question1.js"></script>
+	<script type="text/javascript" src="js/C3Question1.js"></script>
+	<script type="text/javascript" src="js/C4Question1.js"></script>
+	<script type="text/javascript" src="js/C4Question2.js"></script>
+	<script type="text/javascript" src="js/C6Question1.js"></script>
+	<script type="text/javascript" src="js/C6Question2.js"></script>
+	<script type="text/javascript" src="js/C6Question3.js"></script>
+	<script type="text/javascript" src="js/C6Question4.js"></script>
+	<script type="text/javascript" src="js/C7Question1.js"></script>
+	<script type="text/javascript" src="js/C8Question1.js"></script>
+	<script type="text/javascript" src="js/C11Question1.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+</html>
