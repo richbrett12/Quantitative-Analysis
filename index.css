@@ -546,9 +546,6 @@ h3 {
 }
 
 #question-containerC7 {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
 	width: 700px;
 }
 
@@ -557,6 +554,7 @@ h3 {
 	border: 2px solid #608490;
 	width: 550px;
 	height: 300px;
+	margin: auto;
 }
 
 .C7-tableData {

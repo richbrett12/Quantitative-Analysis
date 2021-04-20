@@ -159,7 +159,7 @@ class Question8 extends AbstractQuestion {
 
 	calcAnswer(q1, q2, q3, q4, a1, a2, a3, a4, sal, comm, bonus) {
 		var answer1, answer2;
-		answer1 = ((Math.round(a1/q1*10000) + Math.round(a2/q2*10000) + Math.round(a3/q3*10000) + Math.round(a4/q4*10000)) / 400);
+		answer1 = ((Math.round(a1/q1*10000) + Math.round(a2/q2*10000) + Math.round(a3/q3*10000) + Math.round((2-a4/q4)*10000)) / 400);
 		answer2 = (sal + (comm / 100) * (a1 + a2)) * 1000;
 		if (answer1 >= 100) {
 			return answer2 + (bonus * 1000);
